@@ -16,14 +16,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: svg
-
-      - name: Checkout ico repo
-        uses: actions/checkout@v2
-        with:
-          path: ico
-          token: ${{ secrets.ACTION_TOKEN }}
-          repository: icon11-community/Folder11-ico
-
+          
       - name: Convert
         run: |
           svg_repo="./svg"

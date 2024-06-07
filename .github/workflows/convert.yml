@@ -22,7 +22,7 @@ jobs:
         with:
           path: ico
           token: ${{ secrets.ACTION_TOKEN }}
-          repository: icon11-community/Folder11-ico
+          repository: 1Lucas1apk/Folder11
 
       - name: Convert
         run: |
